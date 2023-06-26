@@ -27,6 +27,14 @@ dashboard.
 For details, see
 [Creating a project](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project).
 
+### Enable Google Cloud APIs
+
+Enable the Google Ads API and the BigQuery API so that they're incorporated in the credentials you will generate in the next step.
+
+<walkthrough-enable-apis apis="bigquery.googleapis.com,googleads.googleapis.com">
+</walkthrough-enable-apis>
+
+
 ## Configure OAuth consent screen
 
 1.  Go to the **APIs & Services > OAuth consent screen** page in the Cloud
@@ -66,14 +74,6 @@ Click
 1. Now in <walkthrough-spotlight-pointer locator="semantic({combobox 'Filter'})">Enter property name or value</walkthrough-spotlight-pointer> search for the BigQuery API, check the box to choose it.
 1. Do the same for Google Ads API.
 1. Click <walkthrough-spotlight-pointer locator="text('Update')">Update</walkthrough-spotlight-pointer>
-
-
-## Enable Google Cloud APIs
-
-Enable the Google Ads API and the BigQuery API so that they're incorporated in the credentials you will generate in the next step.
-
-<walkthrough-enable-apis apis="bigquery.googleapis.com,googleads.googleapis.com">
-</walkthrough-enable-apis>
 
 ## Creating OAuth credentials
 
